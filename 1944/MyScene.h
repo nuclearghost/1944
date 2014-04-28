@@ -22,4 +22,6 @@
 @property SKSpriteNode *planeShadow;
 @property SKSpriteNode *propeller;
 
+@property SKEffectNode *smokeTrail;
+
 @end
