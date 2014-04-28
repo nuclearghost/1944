@@ -12,6 +12,8 @@
 		F34ACF7D190EC64B0047B01C /* PLANE 2 N.png in Resources */ = {isa = PBXBuildFile; fileRef = F34ACF79190EC64B0047B01C /* PLANE 2 N.png */; };
 		F34ACF7E190EC64B0047B01C /* SMOKE TRAIL.png in Resources */ = {isa = PBXBuildFile; fileRef = F34ACF7A190EC64B0047B01C /* SMOKE TRAIL.png */; };
 		F34ACF81190EC68A0047B01C /* trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = F34ACF7F190EC68A0047B01C /* trail.sks */; };
+		F34ACF85190ED41B0047B01C /* EXPLOSION.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F34ACF84190ED41B0047B01C /* EXPLOSION.atlas */; };
+		F34ACF87190ED4370047B01C /* Clouds.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F34ACF86190ED4370047B01C /* Clouds.atlas */; };
 		F3BD5293190304EC00B42404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5292190304EC00B42404 /* Foundation.framework */; };
 		F3BD5295190304EC00B42404 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5294190304EC00B42404 /* CoreGraphics.framework */; };
 		F3BD5297190304EC00B42404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5296190304EC00B42404 /* UIKit.framework */; };
@@ -22,7 +24,6 @@
 		F3BD52A8190304ED00B42404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52A6190304ED00B42404 /* Main.storyboard */; };
 		F3BD52AB190304ED00B42404 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BD52AA190304ED00B42404 /* ViewController.m */; };
 		F3BD52AE190304ED00B42404 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BD52AD190304ED00B42404 /* MyScene.m */; };
-		F3BD52B0190304ED00B42404 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52AF190304ED00B42404 /* Spaceship.png */; };
 		F3BD52B2190304ED00B42404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52B1190304ED00B42404 /* Images.xcassets */; };
 		F3BD52B9190304ED00B42404 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD52B8190304ED00B42404 /* XCTest.framework */; };
 		F3BD52BA190304ED00B42404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5292190304EC00B42404 /* Foundation.framework */; };
@@ -54,6 +55,8 @@
 		F34ACF79190EC64B0047B01C /* PLANE 2 N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 2 N.png"; sourceTree = "<group>"; };
 		F34ACF7A190EC64B0047B01C /* SMOKE TRAIL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMOKE TRAIL.png"; sourceTree = "<group>"; };
 		F34ACF7F190EC68A0047B01C /* trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = trail.sks; path = ../trail.sks; sourceTree = "<group>"; };
+		F34ACF84190ED41B0047B01C /* EXPLOSION.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = EXPLOSION.atlas; path = ../EXPLOSION.atlas; sourceTree = "<group>"; };
+		F34ACF86190ED4370047B01C /* Clouds.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Clouds.atlas; sourceTree = "<group>"; };
 		F3BD528F190304EC00B42404 /* 1944.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1944.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BD5292190304EC00B42404 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3BD5294190304EC00B42404 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,7 +73,6 @@
 		F3BD52AA190304ED00B42404 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F3BD52AC190304ED00B42404 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		F3BD52AD190304ED00B42404 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		F3BD52AF190304ED00B42404 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		F3BD52B1190304ED00B42404 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F3BD52B7190304ED00B42404 /* 1944Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1944Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BD52B8190304ED00B42404 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -153,7 +155,6 @@
 				F3BD52AA190304ED00B42404 /* ViewController.m */,
 				F3BD52AC190304ED00B42404 /* MyScene.h */,
 				F3BD52AD190304ED00B42404 /* MyScene.m */,
-				F3BD52AF190304ED00B42404 /* Spaceship.png */,
 				F34ACF7F190EC68A0047B01C /* trail.sks */,
 				F3BD52B1190304ED00B42404 /* Images.xcassets */,
 				F3BD529B190304EC00B42404 /* Supporting Files */,
@@ -193,6 +194,8 @@
 		F3BD52CE190306DB00B42404 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F34ACF86190ED4370047B01C /* Clouds.atlas */,
+				F34ACF84190ED41B0047B01C /* EXPLOSION.atlas */,
 				F34ACF77190EC64B0047B01C /* B 2.png */,
 				F34ACF78190EC64B0047B01C /* PLANE 1 N.png */,
 				F34ACF79190EC64B0047B01C /* PLANE 2 N.png */,
@@ -295,10 +298,11 @@
 				F3BD52B2190304ED00B42404 /* Images.xcassets in Resources */,
 				F3BD52D61903070300B42404 /* airPlanesBackground.png in Resources */,
 				F3BD52D81903070300B42404 /* PLANE 8 N.png in Resources */,
+				F34ACF87190ED4370047B01C /* Clouds.atlas in Resources */,
 				F34ACF7C190EC64B0047B01C /* PLANE 1 N.png in Resources */,
 				F34ACF7B190EC64B0047B01C /* B 2.png in Resources */,
 				F3BD52DC1903070300B42404 /* PLANE PROPELLER 2.png in Resources */,
-				F3BD52B0190304ED00B42404 /* Spaceship.png in Resources */,
+				F34ACF85190ED41B0047B01C /* EXPLOSION.atlas in Resources */,
 				F3BD52A8190304ED00B42404 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

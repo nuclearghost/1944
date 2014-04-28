@@ -9,7 +9,7 @@
 #import <SpriteKit/SpriteKit.h>
 #import <CoreMotion/CoreMotion.h>
 
-@interface MyScene : SKScene <UIAccelerometerDelegate> {
+@interface MyScene : SKScene <UIAccelerometerDelegate, SKPhysicsContactDelegate> {
     CGRect screenRect;
     CGFloat screenHeight;
     CGFloat screenWidth;
@@ -23,5 +23,8 @@
 @property SKSpriteNode *propeller;
 
 @property SKEffectNode *smokeTrail;
+
+@property NSMutableArray *explosionTextures;
+@property NSMutableArray *cloudTextures;
 
 @end
