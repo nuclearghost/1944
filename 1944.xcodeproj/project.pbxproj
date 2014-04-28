@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F34ACF75190EC5610047B01C /* trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = F34ACF73190EC5610047B01C /* trail.sks */; };
+		F34ACF76190EC5610047B01C /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = F34ACF74190EC5610047B01C /* spark.png */; };
 		F3BD5293190304EC00B42404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5292190304EC00B42404 /* Foundation.framework */; };
 		F3BD5295190304EC00B42404 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5294190304EC00B42404 /* CoreGraphics.framework */; };
 		F3BD5297190304EC00B42404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5296190304EC00B42404 /* UIKit.framework */; };
@@ -24,6 +26,13 @@
 		F3BD52BB190304ED00B42404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3BD5296190304EC00B42404 /* UIKit.framework */; };
 		F3BD52C3190304ED00B42404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52C1190304ED00B42404 /* InfoPlist.strings */; };
 		F3BD52C5190304ED00B42404 /* _944Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BD52C4190304ED00B42404 /* _944Tests.m */; };
+		F3BD52D61903070300B42404 /* airPlanesBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52CF1903070300B42404 /* airPlanesBackground.png */; };
+		F3BD52D71903070300B42404 /* PLANE 8 L.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52D01903070300B42404 /* PLANE 8 L.png */; };
+		F3BD52D81903070300B42404 /* PLANE 8 N.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52D11903070300B42404 /* PLANE 8 N.png */; };
+		F3BD52D91903070300B42404 /* PLANE 8 R.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52D21903070300B42404 /* PLANE 8 R.png */; };
+		F3BD52DA1903070300B42404 /* PLANE 8 SHADOW.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52D31903070300B42404 /* PLANE 8 SHADOW.png */; };
+		F3BD52DB1903070300B42404 /* PLANE PROPELLER 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52D41903070300B42404 /* PLANE PROPELLER 1.png */; };
+		F3BD52DC1903070300B42404 /* PLANE PROPELLER 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F3BD52D51903070300B42404 /* PLANE PROPELLER 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F34ACF73190EC5610047B01C /* trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = trail.sks; sourceTree = "<group>"; };
+		F34ACF74190EC5610047B01C /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		F3BD528F190304EC00B42404 /* 1944.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1944.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BD5292190304EC00B42404 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3BD5294190304EC00B42404 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +71,13 @@
 		F3BD52C0190304ED00B42404 /* 1944Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "1944Tests-Info.plist"; sourceTree = "<group>"; };
 		F3BD52C2190304ED00B42404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3BD52C4190304ED00B42404 /* _944Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _944Tests.m; sourceTree = "<group>"; };
+		F3BD52CF1903070300B42404 /* airPlanesBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airPlanesBackground.png; sourceTree = "<group>"; };
+		F3BD52D01903070300B42404 /* PLANE 8 L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 L.png"; sourceTree = "<group>"; };
+		F3BD52D11903070300B42404 /* PLANE 8 N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 N.png"; sourceTree = "<group>"; };
+		F3BD52D21903070300B42404 /* PLANE 8 R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 R.png"; sourceTree = "<group>"; };
+		F3BD52D31903070300B42404 /* PLANE 8 SHADOW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE 8 SHADOW.png"; sourceTree = "<group>"; };
+		F3BD52D41903070300B42404 /* PLANE PROPELLER 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE PROPELLER 1.png"; sourceTree = "<group>"; };
+		F3BD52D51903070300B42404 /* PLANE PROPELLER 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PLANE PROPELLER 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +139,7 @@
 		F3BD529A190304EC00B42404 /* 1944 */ = {
 			isa = PBXGroup;
 			children = (
+				F3BD52CE190306DB00B42404 /* Images */,
 				F3BD52A3190304EC00B42404 /* AppDelegate.h */,
 				F3BD52A4190304ED00B42404 /* AppDelegate.m */,
 				F3BD52A6190304ED00B42404 /* Main.storyboard */,
@@ -128,6 +147,8 @@
 				F3BD52AA190304ED00B42404 /* ViewController.m */,
 				F3BD52AC190304ED00B42404 /* MyScene.h */,
 				F3BD52AD190304ED00B42404 /* MyScene.m */,
+				F34ACF73190EC5610047B01C /* trail.sks */,
+				F34ACF74190EC5610047B01C /* spark.png */,
 				F3BD52AF190304ED00B42404 /* Spaceship.png */,
 				F3BD52B1190304ED00B42404 /* Images.xcassets */,
 				F3BD529B190304EC00B42404 /* Supporting Files */,
@@ -162,6 +183,20 @@
 				F3BD52C1190304ED00B42404 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3BD52CE190306DB00B42404 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3BD52CF1903070300B42404 /* airPlanesBackground.png */,
+				F3BD52D01903070300B42404 /* PLANE 8 L.png */,
+				F3BD52D11903070300B42404 /* PLANE 8 N.png */,
+				F3BD52D21903070300B42404 /* PLANE 8 R.png */,
+				F3BD52D31903070300B42404 /* PLANE 8 SHADOW.png */,
+				F3BD52D41903070300B42404 /* PLANE PROPELLER 1.png */,
+				F3BD52D51903070300B42404 /* PLANE PROPELLER 2.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +275,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BD52D71903070300B42404 /* PLANE 8 L.png in Resources */,
+				F3BD52DA1903070300B42404 /* PLANE 8 SHADOW.png in Resources */,
 				F3BD529F190304EC00B42404 /* InfoPlist.strings in Resources */,
+				F3BD52D91903070300B42404 /* PLANE 8 R.png in Resources */,
+				F3BD52DB1903070300B42404 /* PLANE PROPELLER 1.png in Resources */,
+				F34ACF76190EC5610047B01C /* spark.png in Resources */,
 				F3BD52B2190304ED00B42404 /* Images.xcassets in Resources */,
+				F3BD52D61903070300B42404 /* airPlanesBackground.png in Resources */,
+				F3BD52D81903070300B42404 /* PLANE 8 N.png in Resources */,
+				F34ACF75190EC5610047B01C /* trail.sks in Resources */,
+				F3BD52DC1903070300B42404 /* PLANE PROPELLER 2.png in Resources */,
 				F3BD52B0190304ED00B42404 /* Spaceship.png in Resources */,
 				F3BD52A8190304ED00B42404 /* Main.storyboard in Resources */,
 			);
@@ -474,6 +518,7 @@
 				F3BD52CA190304ED00B42404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3BD52CB190304ED00B42404 /* Build configuration list for PBXNativeTarget "1944Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +527,7 @@
 				F3BD52CD190304ED00B42404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
